@@ -1,0 +1,28 @@
+﻿  Camera.cpp
+C:\Users\cre\Desktop\OCA_okubo\prj\src\Camera.cpp(26,37): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\cre\Desktop\OCA_okubo\prj\src\Camera.cpp(27,37): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\cre\Desktop\OCA_okubo\prj\src\Camera.cpp(28,37): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\cre\Desktop\OCA_okubo\prj\src\Camera.cpp(45,43): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\cre\Desktop\OCA_okubo\prj\src\Camera.cpp(46,43): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\cre\Desktop\OCA_okubo\prj\src\Camera.cpp(50,43): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\cre\Desktop\OCA_okubo\prj\src\Camera.cpp(51,43): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\cre\Desktop\OCA_okubo\prj\src\Camera.cpp(60,43): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\cre\Desktop\OCA_okubo\prj\src\Camera.cpp(61,43): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+  GameMain.cpp
+C:\Users\cre\Desktop\OCA_okubo\prj\src\GameMain.cpp(211,40): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\cre\Desktop\OCA_okubo\prj\src\GameMain.cpp(211,28): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  Ground.cpp
+  MapMake.cpp
+C:\Users\cre\Desktop\OCA_okubo\prj\src\MapMake.cpp(451,60): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\cre\Desktop\OCA_okubo\prj\src\MapMake.cpp(451,37): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\cre\Desktop\OCA_okubo\prj\src\MapMake.cpp(496,43): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\cre\Desktop\OCA_okubo\prj\src\MapMake.cpp(496,35): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\cre\Desktop\OCA_okubo\prj\src\MapMake.cpp(496,27): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\cre\Desktop\OCA_okubo\prj\src\MapMake.cpp(496,19): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  Player.cpp
+C:\Users\cre\Desktop\OCA_okubo\prj\src\Player.cpp(125,15): warning C4834: 'nodiscard' 属性を持つ関数の戻り値を破棄しています
+  Random.cpp
+  SeenManager.cpp
+  Tutorial.cpp
+  コードを生成中...
+  BaseProject.vcxproj -> C:\Users\cre\Desktop\OCA_okubo\prj\x64\Debug\BaseProject.exe

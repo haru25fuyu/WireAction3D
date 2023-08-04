@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="System">
+      <UniqueIdentifier>{295f1b14-fa52-4260-809c-3548913d1ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Input">
+      <UniqueIdentifier>{34a0d0f9-bffa-49f6-b3f6-3c22d9676392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{0734fb66-ee81-4ce9-bfbe-4bcb248312c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Common">
+      <UniqueIdentifier>{72cda0cd-9b85-4edc-82a0-5f0eb562db6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Class">
+      <UniqueIdentifier>{094e3e22-33f3-48f8-b5e5-f62f06a78484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Class\Char">
+      <UniqueIdentifier>{2e2d97b8-0b26-4ea1-8ea1-2ce4c1231336}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Class\Tool">
+      <UniqueIdentifier>{20d8ae87-329a-4320-8fe8-6b506b227863}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Class\Bullet">
+      <UniqueIdentifier>{bc588804-3dee-4cc1-b81e-518b57a60425}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Class\Building">
+      <UniqueIdentifier>{e8b98a94-da8d-47ba-9eee-2d7b57ef2721}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Seen">
+      <UniqueIdentifier>{367faa6d-c2c8-4789-8a2c-50e76488d854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Class\Building\Wall">
+      <UniqueIdentifier>{ea3c889a-a7c6-4bb3-8f5a-fc9218253e56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Class\Building\BuilType">
+      <UniqueIdentifier>{7c8a910d-6c06-413e-8544-722f68b0b9f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\WinMain.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\KeyInput.cpp">
+      <Filter>System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MouseInput.cpp">
+      <Filter>System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PadInput.cpp">
+      <Filter>System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Base.cpp">
+      <Filter>Game\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>Game\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ground.cpp">
+      <Filter>Game\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\joyPad.cpp">
+      <Filter>System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector2.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Random.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector3.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CharBase.cpp">
+      <Filter>Game\Class\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>Game\Class\Char</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WierBase.cpp">
+      <Filter>Game\Class\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WierR.cpp">
+      <Filter>Game\Class\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WireL.cpp">
+      <Filter>Game\Class\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BulletBase.cpp">
+      <Filter>Game\Class\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SubmachineGun.cpp">
+      <Filter>Game\Class\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AntiAircraftGun.cpp">
+      <Filter>Game\Class\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AssaultRifle.cpp">
+      <Filter>Game\Class\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GuidedMissile.cpp">
+      <Filter>Game\Class\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Missile.cpp">
+      <Filter>Game\Class\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BuildingBase.cpp">
+      <Filter>Game\Class\Building</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hit.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SpherHit.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapMake.cpp">
+      <Filter>Game\Seen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Results.cpp">
+      <Filter>Game\Seen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SeenBase.cpp">
+      <Filter>Game\Seen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Titol.cpp">
+      <Filter>Game\Seen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tutorial.cpp">
+      <Filter>Game\Seen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wall1.cpp">
+      <Filter>Game\Class\Building\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wall2.cpp">
+      <Filter>Game\Class\Building\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Wall3.cpp">
+      <Filter>Game\Class\Building\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Building1.cpp">
+      <Filter>Game\Class\Building\BuilType</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Building2.cpp">
+      <Filter>Game\Class\Building\BuilType</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Building3.cpp">
+      <Filter>Game\Class\Building\BuilType</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Building4.cpp">
+      <Filter>Game\Class\Building\BuilType</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Building5.cpp">
+      <Filter>Game\Class\Building\BuilType</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SeenManager.cpp" />
+    <ClCompile Include="src\GameMain.cpp">
+      <Filter>Game\Seen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Goal.cpp">
+      <Filter>Game\Class</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Start.cpp">
+      <Filter>Game\Class</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\WinMain.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\KeyInput.h">
+      <Filter>System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MouseInput.h">
+      <Filter>System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PadInput.h">
+      <Filter>System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Common.h">
+      <Filter>System\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Base.h">
+      <Filter>Game\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>Game\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ground.h">
+      <Filter>Game\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\joyPad.h">
+      <Filter>System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector2.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector3.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Random.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CharBase.h">
+      <Filter>Game\Class\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>Game\Class\Char</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WierBase.h">
+      <Filter>Game\Class\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WierR.h">
+      <Filter>Game\Class\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WireL.h">
+      <Filter>Game\Class\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BulletBase.h">
+      <Filter>Game\Class\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SubmachineGun.h">
+      <Filter>Game\Class\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AntiAircraftGun.h">
+      <Filter>Game\Class\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AssaultRifle.h">
+      <Filter>Game\Class\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GuidedMissile.h">
+      <Filter>Game\Class\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Missile.h">
+      <Filter>Game\Class\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BuildingBase.h">
+      <Filter>Game\Class\Building</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Hit.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SpherHit.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MapMake.h">
+      <Filter>Game\Seen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Results.h">
+      <Filter>Game\Seen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SeenBase.h">
+      <Filter>Game\Seen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Titol.h">
+      <Filter>Game\Seen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tutorial.h">
+      <Filter>Game\Seen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wall1.h">
+      <Filter>Game\Class\Building\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wall2.h">
+      <Filter>Game\Class\Building\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Wall3.h">
+      <Filter>Game\Class\Building\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Building1.h">
+      <Filter>Game\Class\Building\BuilType</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Building2.h">
+      <Filter>Game\Class\Building\BuilType</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Building3.h">
+      <Filter>Game\Class\Building\BuilType</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Building4.h">
+      <Filter>Game\Class\Building\BuilType</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Building5.h">
+      <Filter>Game\Class\Building\BuilType</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SeenManager.h" />
+    <ClInclude Include="src\GameMain.h">
+      <Filter>Game\Seen</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Goal.h">
+      <Filter>Game\Class</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Start.h">
+      <Filter>Game\Class</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
